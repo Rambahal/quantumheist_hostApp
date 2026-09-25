@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: system-ui, sans-serif;
   background: radial-gradient(circle at center, #141a2e 0%, #0b0f1a 70%);
   color: #e6e8f0;
-  overflow: hidden;
 }

@@ -1,18 +1,19 @@
 :host {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: relative;
+  padding: 2rem 1rem 1.5rem;
 }
 
 .loader {
   position: relative;
   width: 140px;
   height: 140px;
-  margin-bottom: 2rem;
+  margin: auto 0 2rem;
 }
 .loader .ring {
   position: absolute;
@@ -61,8 +62,8 @@ p { color: #9aa3b8; margin: 0; }
 }
 
 footer {
-  position: absolute;
-  bottom: 1.5rem;
+  margin-top: auto;
+  padding-top: 2rem;
   font-size: 0.85rem;
   color: #6b7390;
 }
